@@ -30,7 +30,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative w-full h-[500px] bg-cover bg-center flex items-center" style="background-image: url('https://techcombank.com/assets/images/homepage-banner.jpg');">
+    <section class="relative w-full h-[500px] bg-cover bg-center flex items-center" style="background-image: url('{{ asset('img/Banner_1.jpg') }}');">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto text-center text-white relative z-10">
             <h1 class="text-4xl font-bold">Giải Pháp Tài Trợ Chuỗi Cung Ứng</h1>
@@ -55,21 +55,21 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
             <!-- Card 1 -->
             <div class="bg-white p-6 rounded-lg shadow-lg">
-                <img src="https://techcombank.com/assets/icons/money.svg" class="w-16 mx-auto">
+                <img src="{{ asset('img/Ico-1.svg') }}" class="w-16 mx-auto">
                 <h3 class="mt-4 text-xl font-semibold">Giảm áp lực tài chính</h3>
                 <p class="mt-2 text-gray-600">Nhận thanh toán sớm mà không ảnh hưởng đến quan hệ với người mua.</p>
             </div>
 
             <!-- Card 2 -->
             <div class="bg-white p-6 rounded-lg shadow-lg">
-                <img src="https://techcombank.com/assets/icons/security.svg" class="w-16 mx-auto">
+                <img src="{{ asset('img/Ico-2.svg') }}" class="w-16 mx-auto">
                 <h3 class="mt-4 text-xl font-semibold">Giảm thiểu rủi ro</h3>
                 <p class="mt-2 text-gray-600">Đảm bảo dòng tiền ổn định, tránh nguy cơ chậm thanh toán.</p>
             </div>
 
             <!-- Card 3 -->
             <div class="bg-white p-6 rounded-lg shadow-lg">
-                <img src="https://techcombank.com/assets/icons/growth.svg" class="w-16 mx-auto">
+                <img src="{{ asset('img/Ico-3.svg') }}" class="w-16 mx-auto">
                 <h3 class="mt-4 text-xl font-semibold">Tăng trưởng bền vững</h3>
                 <p class="mt-2 text-gray-600">Tối ưu vốn lưu động và mở rộng kinh doanh hiệu quả.</p>
             </div>
